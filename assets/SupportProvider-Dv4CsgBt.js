@@ -1,0 +1,1 @@
+import{_ as o,o as t,c as s,p as a,h as c,d as p}from"./index-BueGtXLM.js";const r={name:"provider-support"},d=e=>(a("data-v-2b237fa2"),e=e(),c(),e),_=d(()=>p("h1",{class:"title"},"Поддержка",-1)),n=[_];function i(e,f,l,u,h,m){return t(),s("div",null,n)}const I=o(r,[["render",i],["__scopeId","data-v-2b237fa2"]]);export{I as default};
