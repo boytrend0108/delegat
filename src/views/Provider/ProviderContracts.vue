@@ -19,12 +19,14 @@
 
 <script> 
 import { mapActions, mapGetters, mapMutations } from 'vuex';
-import ContractComp from '@/onents/ContractComp.vue';
+import ContractComp from '@/components/ContractComp.vue';
+
   export default {
     name: 'provider-contracts',
     components:{
       ContractComp
     },
+    
     computed:{
       ...mapGetters([
         "CURRENT_USER"

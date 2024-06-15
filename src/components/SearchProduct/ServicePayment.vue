@@ -1,26 +1,32 @@
 <template>
   <div class="ServicePayment">
     <h1 class="title"> Оплата услуги </h1>
+
     <service-item />
     <pay-methods class="payMethods" />
     <user-companies class="userCompanies" /> 
+
     <div class="btn-wr">
-      <div class="msg" v-if="msg"> {{ msg }}</div>
+      <div class="msg" v-if="msg">{{ msg }}</div>
+
       <my-blue-btn @click="getBill"> Получить счёт </my-blue-btn>
+
       <div class="price-wr">
         <p class="text"> К оплате </p>
         <p class="price"> 15 000 руб </p>
       </div>
+
       <my-semipolar-spinner v-if="showPreloader" /> 
   </div> 
 </div> 
 </template> 
 
 <script>
-import UserCompanies from "@/components/Company/UserCompanies"
+import { mapActions, mapGetters } from 'vuex'
+import UserCompanies from "@/components/Company/UserCompanies.vue"
 import PayMethods from "@/components/ServicePayment/PayMethods.vue"
 import ServiceItem from "@/components/ServicePayment/ServiceItem.vue"
-import { mapActions, mapGetters } from 'vuex'
+
 export default {
   name: "service-payment",
   components: { ServiceItem, PayMethods, UserCompanies },

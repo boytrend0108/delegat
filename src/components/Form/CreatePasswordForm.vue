@@ -17,10 +17,10 @@
 </template>
 
 <script>
+import { mapActions, mapGetters } from 'vuex';
 import MySemipolarSpinner from '../UI/Spinners/MySemipolarSpinner.vue';
 import ValidationErrors from '@/components/Form/ValidationErrors.vue';
-import PasswordInput from '@/components/Form/PasswordInput';
-import { mapActions, mapGetters } from 'vuex';
+import PasswordInput from '@/components/Form/PasswordInput.vue';
 
   export default {
     name:'create-password-form',

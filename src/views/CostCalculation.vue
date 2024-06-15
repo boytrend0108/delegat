@@ -21,8 +21,8 @@
 <script>
 import ProgressBar from '@/components/SearchProduct/ProgressBar.vue'
 import ProgressBarMob from '@/components/SearchProduct/ProgressBarMob.vue'
-import FromWhichCountry from '@/components/HomePage/FromWhichCountry'
-import FromWhichCountryMob from '@/components/HomePage/FromWhichCountryMob'
+import FromWhichCountry from '@/components/HomePage/FromWhichCountry.vue'
+import FromWhichCountryMob from '@/components/HomePage/FromWhichCountryMob.vue'
 import ApplicationDescription from '@/components/Application/ApplicationDescription.vue'
 import ApplicationServices from '@/components/Application/ApplicationServices.vue'
 import ApplicationShipping from '@/components/Application/ApplicationShipping.vue'

@@ -11,8 +11,9 @@
 </template>
 
 <script>
-import RadioListBox from '@/components/RadioListBox'
 import { mapGetters } from 'vuex'
+import RadioListBox from '@/components/RadioListBox.vue'
+
 export default {
   name:'company-details',
   components: {

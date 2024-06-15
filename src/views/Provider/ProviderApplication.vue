@@ -132,16 +132,17 @@
 
 <script>
 
+import { mapGetters, mapMutations, mapActions } from "vuex";
+import {getDocsFromServer} from "@/helpers/countSentDocs.js";
 import ProposalSentForm from "@/components/Form/ProposalSentForm.vue";
-import DialogWithCustomerForm from "@/components/Form/DialogWithCustomerForm"
+import DialogWithCustomerForm from "@/components/Form/DialogWithCustomerForm.vue"
 import ApplicationForm from "@/components/Form/ApplicationForm.vue";
 import ApplicationDownloadPhoto from "@/components/Application/ApplicationDownloadPhoto.vue";
 import ApplicationDownloadInvoiceAndPList from "@/components/Application/ApplicationDownloadInvoiceAndPList.vue";
-import { mapGetters, mapMutations, mapActions } from "vuex";
-import {getDocsFromServer} from "@/helpers/countSentDocs";
 
 export default {
   name: "provider-application",
+
   components: {
     DialogWithCustomerForm, 
     ApplicationForm,
@@ -229,6 +230,7 @@ export default {
       "SET_CLEAR_NEW_APPLICATION",
       "SET_CLEAR_DOCS",
     ]),
+
     ...mapActions([
       "DOWNLOAD_DOCS", 
       "GET_AVATAR_BY_ID", 

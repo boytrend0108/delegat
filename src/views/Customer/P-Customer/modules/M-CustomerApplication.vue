@@ -26,10 +26,11 @@
 
 <script>
 import { mapGetters, mapActions } from 'vuex';
-import ApplicationCheck from '@/components/Application/ApplicationCheck';
+import ApplicationCheck from '@/components/Application/ApplicationCheck.vue';
 
 export default {
   name:'m-customer-application',
+  
   components: {
     ApplicationCheck,
   },

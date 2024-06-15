@@ -1,6 +1,6 @@
 <template>
   <div class="serviceItem">
-    <img :src="imageSrc" alt="box">
+    <img :src="`${this.img}`" alt="box">
     <p class="serveceItem__title">{{title}}</p>
     <p class="serveceItem__subtitle">{{subtitle}}</p>
     <a  
@@ -32,7 +32,6 @@
 
     computed: {
       setHash() {
-        debugger
         switch (this.title) {
           case "Личный менеджер" : return "manager"
           case "Поиск товара" : return "search"
@@ -43,13 +42,13 @@
         }
     },
 
-    imageSrc() {
-      if (!this.img) {
-        return '';
-      }
+    // imageSrc() {
+    //   if (!this.img) {
+    //     return '';
+    //   }
 
-      return `./src/assets/images/home_page/${this.img}`
-    },
+    //   return `src/assets/images/home_page/${this.img}`
+    // },
   }
     
   }

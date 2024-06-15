@@ -15,8 +15,8 @@
 </template>
 
 <script>
-import MSelectCompany from './modules/M-SelectCompany';
-import MCustomerApplication from './modules/M-CustomerApplication';
+import MSelectCompany from './modules/M-SelectCompany.vue';
+import MCustomerApplication from './modules/M-CustomerApplication.vue';
 import NewCompanyForm from "@/components/Form/NewCompanyForm.vue"
 import BankForm from '@/components/Form/BankForm.vue'
 import ApplicationForm from '@/components/Form/ApplicationForm.vue';

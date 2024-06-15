@@ -16,18 +16,20 @@
 </template>
 
 <script>
+import { mapGetters, mapMutations } from "vuex";
 import ChangePassword from "@/components/Form/ChangePassword.vue";
-import ProfileHeader from "@/components/Header/ProfileHeader";
+import ProfileHeader from "@/components/Header/ProfileHeader.vue";
 import UserProfileForm from "@/components/Form/UserProfileForm.vue";
 import BanksComp from "@/components/BanksComp.vue";
-import UserCompanies from "@/components/Company/UserCompanies"
-import ValidationErrors from "@/components/Form/ValidationErrors"
+import UserCompanies from "@/components/Company/UserCompanies.vue"
+import ValidationErrors from "@/components/Form/ValidationErrors.vue"
 import BankForm from "@/components/Form/BankForm.vue"
 import NewCompanyForm from "@/components/Form/NewCompanyForm.vue"
-import { mapGetters, mapMutations } from "vuex";
 import ConfirmEmailForm from "@/components/Form/ConfirmEmailForm.vue";
+
   export default {
     name: "customer-profile",
+    
     components:{
       ProfileHeader, 
       UserProfileForm,

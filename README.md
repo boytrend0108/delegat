@@ -46,7 +46,7 @@
 1.Clone the repository:
 
 ```bash
-  https://github.com/boytrend0108/bung_olufsen.git
+  https://github.com/boytrend0108/delegat
 ```
 
 2.Install the required dependencies:

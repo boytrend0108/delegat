@@ -1,12 +1,15 @@
 {
   "name": "ved",
+  "homepage": "https://github.com/boytrend0108/delegat",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@babel/helper-compilation-targets": "^7.22.1",
@@ -51,6 +54,7 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
+    "gh-pages": "^6.1.1",
     "vite": "^5.2.0"
   }
 }

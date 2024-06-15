@@ -12,11 +12,12 @@
 </template> 
 
 <script> 
-import BanksComp from '@/components/BanksComp.vue';
-import CompaniesComp from "@/components/Company/CompaniesComp"
-import CompanyDetails from "@/components/Company/CompanyDetails"
-import FooterComp from "@/components/FooterComp"
 import { mapGetters } from 'vuex';
+import BanksComp from '@/components/BanksComp.vue';
+import CompaniesComp from "@/components/Company/CompaniesComp.vue"
+import CompanyDetails from "@/components/Company/CompanyDetails.vue"
+import FooterComp from "@/components/FooterComp.vue"
+
   export default {
     name:'m-select-company',
     components:{

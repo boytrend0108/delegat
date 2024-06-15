@@ -5,6 +5,7 @@ import svgLoader from 'vite-svg-loader';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/boytrend0105/',
   plugins: [vue(), svgLoader()],
   server: {
     allowedHosts: 'all',
@@ -12,6 +13,7 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
+      '~': path.resolve(__dirname, './public'),
     },
   },
   css: {
