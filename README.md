@@ -21,25 +21,9 @@
 
 ## Demo
 
-- [Link to the preview](https://boytrend0108.github.io/bung_olufsen)
+- [Link to the preview](https://boytrend0108.github.io/delegat/)
 
 - [Link to the mockup](https://www.figma.com/design/P0JYBQHBT3StOO4axKVI4f/Delegat-4.0?node-id=0-1&t=jB6yKC99yiYRXmUX-0)
-
-### Features
-
-- Responsive design optimized for all devices
-- Clean and modern design with a focus on user experience
-- Project showcase with detailed descriptions and visuals
-- Contact form for easy communication
-- Smooth animations and transitions
-
-### Technologies
-
-- HTML: Structure and content of the website
-- SCSS: Styling and design of the website.(BEM)
-- VUE: Interactivity and dynamic features
-- PYTHON: back-end
-- POSTGRES - data base
 
 ### Getting Started
 
