@@ -47,11 +47,11 @@
 
 4.Open `http://localhost:5173` in your browser.
 
-###Contributing
+### Contributing
 
 Pull requests are welcome.Please follow the coding style and conventions used in the project.
 
-###License
+### License
 
 This project is licensed under the MIT License.
 
@@ -59,4 +59,4 @@ This project is licensed under the MIT License.
 
 - [boytrend](https://github.com/boytrend0108)
 
-##Happy coding!
+## Happy coding!
