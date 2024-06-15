@@ -1,0 +1,1 @@
+import{_ as e,o as s,c,d as o}from"./index-CJPfqmld.js";const t={name:"customer-services"},r={class:"customer-services"},n=o("h1",null,"Services",-1),a=[n];function _(i,d,m,p,u,l){return s(),c("div",r,a)}const h=e(t,[["render",_]]);export{h as default};
