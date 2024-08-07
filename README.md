@@ -8,7 +8,7 @@
 
 ## Tech Stack
 
-- Front-end: VUE, VUEX, SOCKET.IO, SCSS, AXIOS, FONTAWESOM, MUI.
+- Front-end: VUE, VUEX, SOCKET.IO, SCSS, AXIOS, FONTAWESOME, MUI.
 - Back-end: python, postgres.
 
 ![App Screenshot](https://raw.githubusercontent.com/boytrend0108/delegat/master/public/delegat-home.png)
